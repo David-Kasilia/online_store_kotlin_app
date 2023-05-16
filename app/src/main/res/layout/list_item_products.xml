@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/FrameLayout">
+
+
+    <androidx.cardview.widget.CardView
+            android:id="@+id/root_card_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:elevation="8dp"
+            app:cardBackgroundColor="@android:color/white"
+            app:cardCornerRadius="8dp"
+            android:visibility="visible"
+            tools:visibility="visible"
+            android:background="#0B0A0A"
+            android:foregroundTint="#FFFFFF">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFDFD">
+            <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" tools:srcCompat="@tools:sample/avatars"
+                    android:id="@+id/productImage"
+                    app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:contentDescription="@string/image_of_the_product"/>
+            <TextView
+                    android:text="@string/product_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" android:id="@+id/productName"
+                    app:layout_constraintTop_toBottomOf="@+id/productImage"
+                    app:layout_constraintStart_toStartOf="parent" android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toEndOf="parent" android:textStyle="bold" android:textAlignment="center"
+                    android:textSize="24sp" android:fontFamily="serif-monospace" android:textColor="@color/black"
+                    tools:text='"ARMCO LED-T32H1 - 32 Inch Digital Television, LED TV, HD Ready - Tempered Tough Screen",'/>
+            <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" app:srcCompat="@drawable/baseline_favorite_border_black_24dp"
+                    android:id="@+id/addToFavourites"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@+id/productName"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    android:contentDescription="@string/add_to_favourites_image"
+                    android:background="#FF00A1"/>
+            <TextView
+                    android:text="@string/add_to_favourites"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" android:id="@+id/favourites"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:textStyle="bold" android:textAlignment="center"
+                    android:textSize="20sp" android:fontFamily="serif-monospace"
+                    app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintTop_toBottomOf="@+id/addToFavourites" android:layout_marginTop="8dp"
+                    android:textColor="#FF0000"/>
+            <TextView
+                    android:text="@string/add_to_cart"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" android:id="@+id/cart"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:textStyle="bold" android:textAlignment="center" android:textSize="20sp"
+                    android:fontFamily="serif-monospace"
+                    app:layout_constraintTop_toBottomOf="@+id/addToCart" app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginTop="8dp" android:textColor="#5C00FF"/>
+            <TextView
+                    android:text="@string/buy_now"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" android:id="@+id/buyNow"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:textStyle="bold" android:textAlignment="center"
+                    android:textSize="20sp" android:fontFamily="serif-monospace"
+                    app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintTop_toBottomOf="@+id/buyNowImage" android:layout_marginTop="8dp"
+                    android:textColor="#001AFF"/>
+            <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" app:srcCompat="@drawable/baseline_add_shopping_cart_black_24dp"
+                    android:id="@+id/addToCart"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@+id/favourites"
+                    android:layout_marginTop="8dp" android:contentDescription="@string/add_to_cart_image"
+                    android:background="#FF00A1"/>
+            <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" app:srcCompat="@drawable/baseline_paid_black_24dp"
+                    android:id="@+id/buyNowImage"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@+id/cart"
+                    android:layout_marginTop="8dp" android:contentDescription="@string/buy_now_image"
+                    android:background="#FF00A1"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>

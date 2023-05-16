@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">ARMCO KENYA LIMITED</string>
+    <string name="home_entertainment">HOME ENTERTAINMENT</string>
+    <string name="kitchen_appliances">KITCHEN APPLIANCES</string>
+    <string name="large_appliances">LARGE APPLIANCES</string>
+    <string name="small_appliances">SMALL APPLIANCES</string>
+    <string name="contact_armco_kenya_service_centre_on_25471234567">Contact Armco Kenya Service Centre on
+        +25471234567
+    </string>
+    <string name="visit_our_website_on_www_armcokenya_co_ke">Visit our Website On www.armcokenya.co.ke</string>
+    <string name="image_of_a_hometheatre_system_in_a_living_room">Image Of A HomeTheatre System In A Living Room
+    </string>
+    <string name="image_of_kitchen_appliances">Image Of Kitchen Appliances</string>
+    <string name="image_of_large_appliances_example_fridge_free_standing_cooker">Image Of Large Appliances Example
+        Fridge, Free Standing Cooker
+    </string>
+    <string name="image_of_an_iron_example_of_a_small_appliance">Image Of An Iron Example Of A Small Appliance</string>
+    <string name="television_sets">TELEVISION SETS</string>
+    <string name="tv_wall_brackets">TV WALL BRACKETS</string>
+    <string name="home_theatres">HOME THEATRES</string>
+    <string name="dvds">Dvds</string>
+    <string name="blenders">BLENDERS</string>
+    <string name="food_processors">FOOD PROCESSORS</string>
+    <string name="portable_cookers">PORTABLE COOKERS</string>
+    <string name="rice_cookers">RICE COOKERS</string>
+    <string name="refrigirators">REFRIGIRATORS</string>
+    <string name="free_standing_cookers">FREE STANDING COOKERS</string>
+    <string name="air_conditioners">AIR CONDITIONERS</string>
+    <string name="cooling_fans">COOLING FANS</string>
+    <string name="microwaves">MICROWAVES</string>
+    <string name="irons">IRONS</string>
+    <string name="kettles">KETTLES</string>
+    <string name="water_dispensers">WATER DISPENSERS</string>
+    <string name="logo_for_armco_kenya">Logo For Armco Kenya</string>
+    <string name="refrigerators">REFRIGERATORS</string>
+    <string name="armco_kenya_logo">Armco Kenya Logo</string>
+    <string name="home">HOME</string>
+    <string name="profile">PROFILE</string>
+    <string name="cart">CART</string>
+    <string name="open">OPEN</string>
+    <string name="close">CLOSE</string>
+    <string name="project_videlishious_creations">PROJECT VIDELISHIOUS CREATIONS</string>
+    <string name="app_creator_name">App Creator Name</string>
+    <string name="armco_kenya_limited_logo">ARMCO KENYA LIMITED logo</string>
+    <string name="main_menu">MAIN MENU</string>
+    <string name="favourites">FAVOURITES</string>
+    <string name="app_prefferences">APP PREFFERENCES</string>
+    <string name="settings">SETTINGS</string>
+    <string name="communicate_with_us">COMMUNICATE WITH US</string>
+    <string name="email">EMAIL</string>
+    <string name="whatsapp">WHATSAPP</string>
+    <string name="phone_call">PHONE CALL</string>
+    <string name="more">MORE</string>
+    <string name="share_application">SHARE APPLICATION</string>
+    <string name="rate_us">RATE US</string>
+    <string name="new_app_logo">New App Logo</string>
+    <string name="explore">EXPLORE</string>
+    <string name="image_of_the_product">Image Of The Product</string>
+    <string name="product_name">PRODUCT NAME</string>
+    <string name="add_to_favourites">ADD TO FAVOURITES</string>
+    <string name="add_to_cart">ADD TO CART</string>
+    <string name="buy_now">BUY NOW</string>
+    <string name="add_to_favourites_image">Add To Favourites</string>
+    <string name="add_to_cart_image">Add To Cart</string>
+    <string name="buy_now_image">Buy Now</string>
+
+</resources>

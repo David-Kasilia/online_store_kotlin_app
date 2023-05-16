@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.armcokenyalimited">
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/Theme.ARMCOKENYALIMITED">
+        <activity
+                android:name=".TVWALLBRACKETS.TvWallBrackets"
+                android:label="TV-WALL BRACKETS">
+        </activity>
+        <activity
+                android:name=".SplashScreen"
+                android:exported="true"
+                android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action
+                        android:name="android.intent.action.MAIN"
+                        android:exported="true"/>
+
+                <category
+                        android:name="android.intent.category.LAUNCHER"
+                        android:exported="true"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".FAVOURITES.Favourites"
+                android:label="FAVOURITES">
+        </activity>
+        <activity
+                android:name=".PROFILE.Profile"
+                android:label="PROFILE">
+        </activity>
+        <activity
+                android:name=".CART.Cart"
+                android:label="CART">
+        </activity>
+        <activity
+                android:name=".WATERDISPENSERS.WaterDispensers"
+                android:label="WATER DISPENSERS">
+        </activity>
+        <activity
+                android:name=".RICECOOKERS.RiceCookers"
+                android:label="RICE COOKERS">
+        </activity>
+        <activity
+                android:name=".REFRIGERATORS.Refrigerators"
+                android:label="REFRIGERATORS">
+        </activity>
+        <activity
+                android:name=".PORTABLECOOKERS.PortableCookers"
+                android:label="PORTABLE COOKERS">
+        </activity>
+        <activity
+                android:name=".MICROWAVES.Microwaves"
+                android:label="MICROWAVES">
+        </activity>
+        <activity
+                android:name=".KETTLES.Kettles"
+                android:label="KETTLES">
+        </activity>
+        <activity
+                android:name=".IRONS.Irons"
+                android:label="IRONS">
+        </activity>
+        <activity
+                android:name=".FREESTANDINGCOOKERS.FreeStandingCookers"
+                android:label="FREE STANDING COOKERS">
+        </activity>
+        <activity
+                android:name=".FOODPROCESSORS.FoodProcessors"
+                android:label="FOOD PROCESSORS">
+        </activity>
+        <activity
+                android:name=".COOLINGFANS.CoolingFans"
+                android:label="COOLING FANS">
+        </activity>
+        <activity
+                android:name=".BLENDERS.Blenders"
+                android:label="BLENDERS">
+        </activity>
+        <activity
+                android:name=".AIRCONDITIONERS.AirConditioners"
+                android:label="AIR CONDITIONERS">
+        </activity>
+        <activity
+                android:name=".DVDS.Dvds"
+                android:label="DVDS">
+        </activity>
+        <activity
+                android:name=".HOMETHEATRES.HomeTheatres"
+                android:label="HOMETHEATRES">
+        </activity>
+
+        <activity
+                android:name=".TV.TV"
+                android:label="TELEVISION SETS">
+        </activity>
+        <activity
+                android:name=".MainActivity"
+                android:exported="true">
+        </activity>
+        <activity
+                android:name=".Explore"
+                android:label="EXPLORE MORE">
+        </activity>
+        <activity
+                android:name=".Communications"
+                android:label="COMMUNICATE WITH US">
+        </activity>
+        <activity
+                android:name=".Settings"
+                android:label="SETTINGS">
+        </activity>
+    </application>
+
+</manifest>

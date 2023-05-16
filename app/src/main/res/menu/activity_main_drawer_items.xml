@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="@string/main_menu">
+
+            <menu>
+        <item
+            android:id="@+id/HomeActivity"
+            android:icon="@drawable/baseline_home_black_24dp"
+            android:title="@string/home" />
+
+        <item
+            android:id="@+id/ProfileActivity"
+            android:icon="@drawable/baseline_account_circle_black_24dp"
+            android:title="@string/profile" />
+
+        <item
+            android:id="@+id/CartActivity"
+            android:icon="@drawable/baseline_shopping_cart_black_24dp"
+            android:title="@string/cart" />
+
+        <item
+            android:id="@+id/FavouriteActivity"
+            android:icon="@drawable/baseline_favorite_black_24dp"
+            android:title="@string/favourites"/>
+
+            </menu>
+
+        </item>
+
+
+        <item android:title="@string/app_prefferences">
+            <menu>
+
+            <item android:id="@+id/Settings"
+                  android:icon="@drawable/baseline_settings_black_24dp"
+                  android:title="@string/settings"/>
+        </menu>
+
+        </item>
+
+        <item android:title="@string/communicate_with_us">
+
+            <menu>
+
+                <item android:id="@+id/Email"
+                      android:icon="@drawable/baseline_email_black_24dp"
+                      android:title="@string/email"/>
+
+                <item android:id="@+id/Whatsapp"
+                      android:icon="@drawable/baseline_whatsapp_black_24dp"
+                      android:title="@string/whatsapp"/>
+
+                <item android:id="@+id/PhoneCall"
+                      android:icon="@drawable/baseline_dialer_sip_black_24dp"
+                      android:title="@string/phone_call"/>
+            </menu>
+
+        </item>
+
+        <item android:title="@string/explore">
+            <menu>
+                <item android:id="@+id/Share"
+                      android:icon="@drawable/baseline_share_black_24dp"
+                      android:title="@string/share_application"/>
+
+                <item android:id="@+id/RateUs"
+                      android:icon="@drawable/baseline_thumbs_up_down_black_24dp"
+                      android:title="@string/rate_us"/>
+            </menu>
+        </item>
+
+
+
+    </group>
+
+
+
+
+
+
+</menu>
